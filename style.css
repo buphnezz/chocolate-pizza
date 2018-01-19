@@ -42,9 +42,18 @@ body header p {
      position: absolute;
     width: 150%;
     text-align: left;
-    bottom: 17px;
+    bottom: -11px;
     left: 0;
     font-size: 6px;
+}
+
+body header img {
+  float: right;
+  margin-top: -17;
+}
+
+body img {
+  align-content: 10;
 }
 
 
