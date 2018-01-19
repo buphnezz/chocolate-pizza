@@ -1,9 +1,28 @@
+body nav {
+  position: relative;
+  display: inline-block;
+}
 
 body nav img {
   float: left;
 }
+
 body nav h3 {
-  background-color: red;
-  color: green;
+    color: green;
   float: left;
 }
+
+body nav p {
+  position: absolute;
+  width: 150%;
+  text-align: center;
+  bottom: 13;
+  left: 0;
+  font-size: 5px;
+}
+
+body section {
+  float: right;
+}
+
+
