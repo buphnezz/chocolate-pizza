@@ -53,7 +53,12 @@ body header img {
 }
 
 body img {
-  align-content: 10;
+  position: relative;
+  align-content: center;
+}
+
+body article {
+  font-size: 10px;
 }
 
 
