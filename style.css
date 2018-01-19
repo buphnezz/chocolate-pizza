@@ -29,6 +29,22 @@ body section {
   float: right;
   align-content: center;
   margin-top: 15px;
+  font-size: 5px;
+}
+
+body header {
+  position: relative;
+  vertical-align: -250%;
+  bottom: 1px;
+}
+
+body header p {
+     position: absolute;
+    width: 150%;
+    text-align: left;
+    bottom: 17px;
+    left: 0;
+    font-size: 6px;
 }
 
 
