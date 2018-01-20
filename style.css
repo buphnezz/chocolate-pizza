@@ -136,4 +136,8 @@ input[type=checkbox].css-checkbox {
 				-moz-user-select: none;
 				-ms-user-select: none;
 				user-select: none;
-			}
+      }
+      
+      table tbody tr td {
+        font-size: 11px;
+      }
