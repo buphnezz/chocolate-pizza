@@ -65,41 +65,75 @@ body article {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(139, 15, 15);
+}
+
+.container img {
+  width: 450;
 }
 
 /* Bottom left text */
-.bottom-left {
+/* .bottom-left {
     position: absolute;
     bottom: 8px;
     left: 16px;
-}
+} */
 
 /* Top left text */
-.top-left {
+/* .top-left {
     position: absolute;
-    top: 8px;
-    left: 16px;
-}
+    top: 14px;
+    left: 125px;
+} */
 
 /* Top right text */
-.top-right {
+/* .top-right {
     position: absolute;
     top: 8px;
     right: 16px;
-}
+} */
 
 /* Bottom right text */
-.bottom-right {
+/* .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
-}
+} */
 
 /* Centered text */
-.centered {
+/* .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
+
+input[type=checkbox].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=checkbox].css-checkbox + label.css-label {
+							padding-left:55px;
+							height:26px; 
+							display:inline-block;
+							line-height:26px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:26px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=checkbox].css-checkbox:checked + label.css-label {
+							background-position: 0 -26px;
+						}
+						label.css-label {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_6ac61cb6e083d9cded92e3f56dc2e89e.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
