@@ -55,6 +55,8 @@ body header img {
 body img {
   position: relative;
   align-content: center;
+  background-color: green;
+  
 }
 
 body article {
@@ -91,7 +93,7 @@ body article {
     position: absolute;
     top: 8px;
     right: 16px;
-} */
+  } */
 
 /* Bottom right text */
 /* .bottom-right {
@@ -101,12 +103,12 @@ body article {
 } */
 
 /* Centered text */
-/* .centered {
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-} */
+}
 
 input[type=checkbox].css-checkbox {
 							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
@@ -137,7 +139,14 @@ input[type=checkbox].css-checkbox {
 				-ms-user-select: none;
 				user-select: none;
       }
-      
+      table tbody tr{
+        top: 50px;
+        position: absolute;
+        column-span: all;
+      }
+
       table tbody tr td {
         font-size: 11px;
       }
+
+      
